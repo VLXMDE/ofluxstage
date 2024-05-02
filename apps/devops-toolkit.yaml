@@ -11,7 +11,7 @@ spec:
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: GitRepository
-        name: ofluxdev
+        name: devops-toolkit-staging
   interval: 30s
   targetNamespace: ofluxstage
   values:
